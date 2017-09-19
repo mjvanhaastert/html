@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+div#wrapper{
+    margin: auto;
+    width: 1000px;
+    background-color: #FFEAEA;
+    padding: 20px;
+}
+
+body {
+    font-family: "Arial", "sans-serif";
+}
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-right: 20px;
+}

@@ -11,6 +11,7 @@ div#wrapper{
 
 body {
     font-family: "Arial", "sans-serif";
+    line-height: 25px;
 }
 
 nav {
@@ -21,3 +22,43 @@ nav {
 nav a {
     margin-right: 20px;
 }
+
+section.appel, section.visuals {
+    width: 50%;
+    float: left;
+}
+
+section.visuals{
+    text-align: right;
+}
+
+section.artikelen {
+
+}
+
+img.appel{
+    width: 475px;
+}
+
+img.visuals{
+    width: 450px;
+    margin-bottom: 4px;
+}
+img.artikel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+article {
+    display: inline-block;
+    width: 33%;
+    padding-right: 15px;
+    vertical-align: top;
+}
+
+article:last-child {
+    padding-right: 0px;
+}
+
+)

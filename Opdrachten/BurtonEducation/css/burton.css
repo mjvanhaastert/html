@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-div#wrapper{
+div#wrapper, footer{
     margin: auto;
     width: 1000px;
     background-color: #FFEAEA;
@@ -61,4 +61,11 @@ article:last-child {
     padding-right: 0px;
 }
 
-)
+footer {
+    background-color: #a6a6a6;
+    color:white;
+}
+
+footer a {
+    color:white;
+}

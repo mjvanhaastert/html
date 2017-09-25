@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+    <title>Formulier</title>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="FormTop">
+            <h1>Voorbeeld formulier Burton</h1>
+        </section>
+
+        <section class="Form01">
+        <form action="http://www.savatarian.com/html5/form.php" method="post">
+            <label for="voornaam">Voornaam</label>
+            <input type="text" id="voornaam" ><br>
+            <label for="tussenvoegsel">Tussenvoegsel</label>
+            <input type="text" id="tussenvoegsel" ><br>
+            <label for="achternaam">Achternaam</label>
+            <input type="text" id="achternaam" ><br>
+            <label for="geslacht">Geslacht</label>
+            <input type="radio" id="geslacht" name="geslacht" value="male">Man
+            <input type="radio" id="geslacht" name="geslacht" value="female">Vrouw<br>
+            <label>Kleur ogen</label>
+            <select name="cars">
+                <option value="groen">Groen</option>
+                <option value="blauw">Blauw</option>
+                <option value="bruin">Bruin</option>
+            </select><br>
+            <label>Geboortedatum</label>
+            <input type="date" name="geboortedatum"/><br>
+            <textarea rows="4" cols="50" name="comment"></textarea>
+
+        </section>
+        <section class="Form02">
+            <input type="checkbox" name="sperciebonen">Sperciebonen<br>
+            <input type="checkbox" name="aardappelen">Aardappelen<br>
+            <input type="checkbox" name="Hamburger">Hamburger<br>
+        </section>
+        <section class="Form03">
+             <input type="reset" name="anuleren" value="Anuleren">
+            <input type="submit" name="ok" value="OK">
+        </form>
+        </section>
+
+    </div>
+</body>
+</html>

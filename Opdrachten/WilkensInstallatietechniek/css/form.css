@@ -2,22 +2,65 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Arial", "sans-serif";
+}
+
 div.wrapper {
-    width: 1000px;
+    padding-left: 20px;
     margin: auto;
     background-color: red;
 }
-body {
-    font-family: "Arial", "sans-serif";
+
+/*
+###########
+Css Formulier gedeelte
+###########
+*/
+
+div.form {
     width: 960px;
-
-}
-section.FormTop{
     margin: auto;
 }
 
-section.Form01{
-    margin: auto;
-    padding-right: 5px;
-    padding-top: 50px;
+section.FormLinks, section.FormRechts {
+    background-color: #c6ffb3;
+    width: 50%;
+    height: 410px;
+    padding-left: 10px;
+    float: left;
+    line-height: 35px;
+}
+
+section.FormLinks input {
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+section.FormLinks input#vrouw {
+    float: none;
+}
+
+section.FormLinks input#geslacht {
+    float: none;
+    margin-left: 285px;
+}
+
+section.FormLinks div.kleurogen {
+    float: right;
+    margin-right: 20px;
+}
+
+section.FormRechts input {
+    margin-left: 100px;
+}
+
+section.FormRechts input#sperciebonen {
+    margin-left: 7px;
+}
+
+section.FormBottom {
+    float: right;
+    margin-right: 100px;
 }

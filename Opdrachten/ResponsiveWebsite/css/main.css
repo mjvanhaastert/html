@@ -1,14 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+/* -- Display Tablet -- */
+
+@media all and  (min-width: 580px){
+    ul {
+        background-color: rgb(128,128,128);
+        border-top:1px solid white;
+    }
+    nav {
+        border: none;
+    }
+    li {
+        display: inline-block;
+    }
+    section#nieuws {
+        width: 40%;
+        float: left;
+    }
+    section#instrumenten{
+        width: 60%;
+        float: right;
+    }
+}
+
+/* -- Display PC -- */
+
+@media all and  (min-width: 800px) {
+
+    section#nieuws {
+        width: 30%;
+        float: left;
+    }
+    section#instrumenten{
+        width: 70%;
+        float: right;
+    }
+    article{
+        display: inline-block;
+        width: 40%;
+        margin-right: 20px;
+    }
+}
+
+/* -- Einde Display -- */
+
 body {
+    margin:0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
     background-color: rgb(250,241,234);
 }
 
 header {
     background-color: rgb(192,240,223);
+    text-align: center;
 }
 
 img#logo {
     width: 320px;
 }
+
+img {
+    width: 100%;
+}
+
+/* -- navigatie balk -- */
 
 ul {
     padding: 0px;
@@ -27,11 +84,26 @@ li a {
     text-decoration: none;
     font-weight: 700;
     padding: 10px;
-
 }
+
+/* -- einde navigatie balk -- */
 
 h3 {
     color: #dc6a5e;
     font-size: 22px;
     font-weight: 600;
+}
+
+section, footer {
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(128,128,128);
+    color: white;
+    clear: both;
+}
+
+footer h3 {
+    color: white;
 }

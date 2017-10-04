@@ -1,7 +1,11 @@
 * {
     box-sizing: border-box;
 }
-/* -- Display Tablet -- */
+/*
+*
+* -- Display Tablet 580px --
+*
+*/
 
 @media all and  (min-width: 580px){
     ul {
@@ -14,6 +18,9 @@
     li {
         display: inline-block;
     }
+    li.menu{
+        border: none;
+    }
     section#nieuws {
         width: 40%;
         float: left;
@@ -22,11 +29,24 @@
         width: 60%;
         float: right;
     }
+    li{
+        border: none;
+    }
 }
 
-/* -- Display PC -- */
+/*
+*
+* -- Einde Display Tablet --
+*
+*/
 
-@media all and  (min-width: 800px) {
+/*
+*
+*  -- Display PC 800px --
+*
+*/
+
+@media all and  (min-width: 920px) {
 
     section#nieuws {
         width: 30%;
@@ -38,17 +58,48 @@
     }
     article{
         display: inline-block;
-        width: 40%;
+        width: 48%;
         margin-right: 20px;
+    }
+    article:nth-child(even){
+        margin-right: 0px;
     }
 }
 
-/* -- Einde Display -- */
+/*
+*
+*  -- Einde Display PC --
+*
+*/
+
+/*
+*
+*  -- Display Max 1200px --
+*
+*/
+
+@media all and (min-width: 1200px){
+
+    div#wrapper {
+        width: 1200px;
+        margin:auto;
+    }
+
+}
+
+/*
+*
+*  -- Einde Display Max 1200px --
+*
+*/
 
 body {
     margin:0px;
     padding: 0px;
     font-family: 'Raleway', sans-serif;
+}
+
+div#wrapper {
     background-color: rgb(250,241,234);
 }
 
@@ -65,7 +116,12 @@ img {
     width: 100%;
 }
 
-/* -- navigatie balk -- */
+/*
+*
+*  -- Navigatie Balk --
+*
+*/
+
 
 ul {
     padding: 0px;
@@ -86,7 +142,11 @@ li a {
     padding: 10px;
 }
 
-/* -- einde navigatie balk -- */
+/*
+*
+*  -- Einde Navigatie Balk --
+*
+*/
 
 h3 {
     color: #dc6a5e;
